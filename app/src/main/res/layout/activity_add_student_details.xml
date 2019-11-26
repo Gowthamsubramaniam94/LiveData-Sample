@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/student_name_EDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/student_gender_EDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/student_age_EDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/student_course_EDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/student_fee_paid_EDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fee paid"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/student_details_save_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Save"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
